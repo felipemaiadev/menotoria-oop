@@ -8,7 +8,7 @@ c1.Id = 2;
 Console.WriteLine(c1);
 
 Cliente c2 = new Cliente("Excelsior");
-c2.Nome = "Pedro Henrique";
+c2.Nome = "Pedro Henrique Cardoso";
 c2.Id = 2;
 Console.WriteLine(c2);
 
