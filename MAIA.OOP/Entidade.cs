@@ -1,14 +1,14 @@
 ﻿namespace MAIA.OOP
 {
     // Classe abstrata não pode ser instâciada somente herdada
-    public abstract class Base
+    public abstract class Entidade
     {
         private Guid UID { get; set; }
         private DateTime Criacao { get; set; }
 
         public string Categoria { get; set; }
 
-        public Base(string categoria) 
+        public Entidade(string categoria) 
         {
             SetUID();
             SetDateTimeCriacao();

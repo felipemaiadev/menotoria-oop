@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MAIA.OOP
 {
-    public class Cliente : Base
+    public class Cliente : Entidade
     {
         public int Id { get; set; }
         public string Nome { get; set; }
