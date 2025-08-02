@@ -50,9 +50,11 @@ itendDoPedido.Add(novoItem5);
 Console.WriteLine(pedidoRequest.Items.Count());
 
 
-// Usa LINQ para iterar na coleção e filtrar pelo valor 
+// Usa LINQ para iterar na coleção e filtrar pelo Valor 
 var itensCaros = pedidoRequest.Items.Where(p => p.Valor > 6000.00).ToList();
 
+// Usa LINQ para iterar na coleção e filtrar pela Categoria
+var itensCelulares =  pedidoRequest.Items.Where(c => c.Categoria == "Celular").ToList();
 
 // Usa o ForEach para iterar na coleção
 foreach (var iten in itensCaros)
@@ -61,4 +63,10 @@ foreach (var iten in itensCaros)
 }
 
 
- 
+foreach (var celular in itensCelulares)
+{
+    Console.WriteLine(celular.Fabricante + "  --  " + celular.SKU + " --- " + celular.Valor);
+}
+
+
+
