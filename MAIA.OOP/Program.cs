@@ -3,18 +3,18 @@ using MAIA.OOP;
 using System.Linq;
 
 
-//Cliente c1 = new Cliente("Premium");
-//c1.Nome = "Felipe Maia";
-//c1.Id = 2;
-//Console.WriteLine(c1);
+Cliente c1 = new Cliente("Premium");
+c1.Nome = "Felipe Maia";
+c1.Id = 2;
+Console.WriteLine(c1);
 
-//Cliente c2 = new Cliente("Excelsior");
-//c2.Nome = "Pedro Henrique";
-//c2.Id = 2;
-//Console.WriteLine(c2);
+Cliente c2 = new Cliente("Excelsior");
+c2.Nome = "Pedro Henrique";
+c2.Id = 2;
+Console.WriteLine(c2);
 
 
-//Console.WriteLine(c1.Equals(c2));
+Console.WriteLine(c1.Equals(c2));
 
 
 // O que vai vir da REQUEST - APRESENTACAO ( Pedido Criar Request )
@@ -67,10 +67,3 @@ foreach (var celular in itensCelulares)
 {
     Console.WriteLine(celular.Fabricante + "  --  " + celular.SKU + " --- " + celular.Valor);
 }
-
-Cliente c2 = new Cliente("Excelsior");
-c2.Nome = "Pedro Henrique Cardoso";
-c2.Id = 2;
-Console.WriteLine(c2);
-
-
