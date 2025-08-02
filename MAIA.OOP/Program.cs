@@ -68,5 +68,9 @@ foreach (var celular in itensCelulares)
     Console.WriteLine(celular.Fabricante + "  --  " + celular.SKU + " --- " + celular.Valor);
 }
 
+Cliente c2 = new Cliente("Excelsior");
+c2.Nome = "Pedro Henrique Cardoso";
+c2.Id = 2;
+Console.WriteLine(c2);
 
 
